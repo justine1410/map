@@ -1,0 +1,153 @@
+.map__image{
+    width: 80%;
+}
+
+.map__image path{
+    stroke: #FFF;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+
+.map__list{
+    float: right;
+    width: 50%;
+
+}
+
+.map__list li{
+    list-style: none;
+}
+.map__list ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 700px;
+    
+}
+
+.map__list a{
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.map{
+    display: flex;
+}
+
+/*lien entre les régions est la liste */
+.map__list a.is-active{
+   color:red;
+   font-weight: bold;
+
+}
+
+
+
+/* couleur pour les divers régions de France */
+/* nord-pas-de-calais/ picardie */
+.map__image  #r62:hover,#r59:hover,#r80:hover,#r02:hover,#r60:hover{
+    fill: #858512;
+}
+.map__image #r62,#r59,#r80,#r02,#r60{
+    fill: #b3b418;
+}
+
+
+/* Champagne-Ardenne / Lorraine / Alsace */
+.map__image #r08:hover,#r51:hover,#r55:hover,#r54:hover,#r57:hover,#r67:hover,#r68:hover,#r88:hover,#r52:hover,#r10:hover{
+    fill: #8a701c;
+}
+.map__image #r08,#r51,#r55,#r54,#r57,#r67,#r68,#r88,#r52,#r10{
+    fill: #fec607;
+}
+
+/* Bourgogne / Franche-Comté */
+.map__image #r89:hover,#r58:hover,#r21:hover,#r71:hover,#r39:hover,#r25:hover,#r70:hover,#r90:hover{
+    fill: #20721f;
+}
+.map__image #r89,#r58,#r21,#r71,#r39,#r25,#r70,#r90{
+    fill: #2da32b;
+}
+
+/* Ile-de-France*/
+.map__image #r95:hover,#r78:hover,#r75:hover,#r77:hover,#r91:hover,#r94:hover,#r93:hover,#r92:hover{
+    fill: #3538d2;
+}
+.map__image #r95,#r78,#r75,#r77,#r91,#r94,#r93,#r92{
+    fill: #2d9cc7;
+}
+
+/* Basse-Normandie / Haute-Normandie */
+.map__image  #r76:hover,#r27:hover,#r14:hover,#r61:hover,#r50:hover,#r27:hover{
+    fill: #83422b;
+}
+.map__image #r76,#r27,#r14,#r61,#r50,#r27{
+    fill: #d46c47;
+}
+
+/* Bretagne */
+.map__image #r35:hover,#r56:hover,#r22:hover,#r29:hover{
+    fill: #5e252f;
+}
+.map__image #r35,#r56,#r22,#r29{
+    fill: #943c4a;
+}
+
+/* Centre */
+.map__image  #r28:hover,#r41:hover,#r45:hover,#r37:hover,#r36:hover,#r18:hover{
+    fill: #927741;
+}
+.map__image #r28,#r41,#r45,#r37,#r36,#r18{
+    fill: #e3b963;
+}
+
+/* Pays de la Loire */
+.map__image #r35:hover,#r56:hover,#r22:hover,#r29:hover{
+    fill: #35142a;
+}
+.map__image #r53,#r72,#r49,#r44,#r85{
+    fill: #682653;
+}
+
+/* Poitou-Charente / Limousin / Aquitaine */
+.map__image  #r79:hover,#r86:hover,#r17:hover,#r16:hover,#r87:hover,#r23:hover,#r33:hover,#r24:hover,#r19:hover,#r47:hover,#r40:hover,#r6:hover{
+    fill: #7c8502;
+}
+.map__image #r79,#r86,#r17,#r16,#r87,#r23,#r33,#r24,#r19,#r47,#r40,#r64{
+    fill: #becd02;
+}
+
+/* Auvergne / Rhône-Alpes */
+.map__image #r03:hover,#r42:hover,#r69:hover,#r01:hover,#r74:hover,#r73:hover,#r38:hover,#r26:hover,#r07:hover,#r43:hover,#r63:hover,#r15:hover{
+    fill: #0a6066;
+}
+.map__image #r03,#r42,#r69,#r01,#r74,#r73,#r38,#r26,#r07,#r43,#r63,#r15{
+    fill: #0d97a1;
+}
+
+/* Provence-Aples-Côted'Azure */
+.map__image #r04:hover,#r05:hover,#r06:hover,#r83:hover,#r13:hover,#r84:hover{
+    fill: #a16d03;
+}
+.map__image #r04,#r05,#r06,#r83,#r13,#r84{
+    fill: #f7a400;
+}
+
+/* Midi-Pyrénées / Lanquedoc-Roussillon */
+.map__image #r46:hover,#r12:hover,#r48:hover,#r30:hover,#r34:hover,#r11:hover,#r66:hover,#r31:hover,#r82:hover,#r32:hover,#r65:hover,#r81:hover,#r09:hover{
+    fill: #b33e10;
+}
+.map__image #r46,#r12,#r48,#r30,#r34,#r11,#r66,#r31,#r82,#r32,#r65,#r81,#r09{
+    fill: #e95014;
+}
+
+/* Corse */
+.map__image #r2A:hover, #r2B:hover{
+    fill: #477c24;
+}
+.map__image #r2A, #r2B{
+    fill: #65b530;
+}
+
+
