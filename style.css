@@ -37,8 +37,9 @@
 
 /*lien entre les régions est la liste */
 .map__list a.is-active{
-   color:red;
+   color:#fff;
    font-weight: bold;
+   background-color: #000;
 
 }
 
@@ -103,7 +104,7 @@
 }
 
 /* Pays de la Loire */
-.map__image #r35:hover,#r56:hover,#r22:hover,#r29:hover{
+.map__image #r53:hover,#r72:hover,#r49:hover,#r44:hover,#r85:hover{
     fill: #35142a;
 }
 .map__image #r53,#r72,#r49,#r44,#r85{
@@ -111,7 +112,7 @@
 }
 
 /* Poitou-Charente / Limousin / Aquitaine */
-.map__image  #r79:hover,#r86:hover,#r17:hover,#r16:hover,#r87:hover,#r23:hover,#r33:hover,#r24:hover,#r19:hover,#r47:hover,#r40:hover,#r6:hover{
+.map__image  #r79:hover,#r86:hover,#r17:hover,#r16:hover,#r87:hover,#r23:hover,#r33:hover,#r24:hover,#r19:hover,#r47:hover,#r40:hover,#r64:hover{
     fill: #7c8502;
 }
 .map__image #r79,#r86,#r17,#r16,#r87,#r23,#r33,#r24,#r19,#r47,#r40,#r64{
@@ -148,6 +149,17 @@
 }
 .map__image #r2A, #r2B{
     fill: #65b530;
+}
+/*****style mobile*****/
+
+@media screen and (min-width:320px) and (max-width:750px){
+    .map{
+        flex-direction: column;
+    }
+    .map ul{
+        padding: 0;
+        height: 1000px;
+    }
 }
 
 
